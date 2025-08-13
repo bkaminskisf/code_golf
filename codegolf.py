@@ -1,6 +1,6 @@
 import sys
 l = 'IVXLCDM '
-for p in open(sys.argv[1],"r").readlines():
+for p in open(sys.argv[1],"r"):
 	f=''
 	for i in [6,4,2,0]:
 		v=int(int(p)/10**(i/2))%10
